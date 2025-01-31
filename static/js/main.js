@@ -234,7 +234,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 phone_number: phoneResult.formattedNumber,
                 phone_country: formData.get('phone_country'),
                 relationship: formData.get('relationship'),
-                description: messageType === 'custom' ? formData.get('custom_message') : formData.get('description'),
+                custom_message: messageType === 'custom' ? formData.get('custom_message') : null,  // Send custom_message when type is 'custom'
+                description: messageType !== 'custom' ? formData.get('description') : null,  // Send description when type is NOT 'custom'
                 message_type: messageType
             };
 
