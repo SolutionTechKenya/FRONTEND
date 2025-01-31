@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tech.html",
+      "destination": "/roadmap",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/roadmap",
+      "destination": "/tech.html"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    }
+  ]
+}

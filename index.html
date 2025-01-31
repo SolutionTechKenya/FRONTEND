@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8MWW1NR467"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8MWW1NR467');
+</script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolTech - Secure IT Solutions | Software Development & Cybersecurity</title>
+  <meta name="description"
+    content="SolTech offers secure IT solutions, software development, and cybersecurity services. We provide innovative technology solutions to help businesses thrive in a digital world.">
+  <meta name="keywords"
+    content="IT solutions, software development, cybersecurity, AI, machine learning, web development, mobile app development, IoT, SolTech">
+  <meta name="author" content="SolTech Solutions">
+
+  <link rel="shortcut icon" href="assets/images/image26.png" type="image/png">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    .lazy_load {
+      opacity: 0;
+      transform: translateY(100px);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+
+    .lazy_load.loaded {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    #loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    #loader .loader-logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    #loader .loader-logo img {
+      width: 150px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+
+    #loader .loader-spinner {
+      width: 50px;
+      height: 50px;
+      border: 5px solid #3182ce;
+      border-top: 5px solid #63b3ed;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .card-text {
+      position: relative;
+    }
+
+    .more-text {
+      display: none;
+    }
+
+    .card-link {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .spanTag {
+      pointer-events: none;
+    }
+  </style>
+
+  <!-- Basic SEO Meta Tags -->
+<meta name="description" content="SolTech offers secure IT solutions including web development, app development, cybersecurity, and AI integration. Based in Nairobi, we create innovative solutions to solve real-world problems.">
+<meta name="keywords" content="web development, app development, cybersecurity, AI integration, machine learning, portfolio websites, commercial websites, Nairobi tech company, African tech solutions">
+<meta name="author" content="SolTech Solutions">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="SolTech - Web Development, App Development & AI Solutions | Nairobi">
+<meta property="og:description" content="SolTech offers comprehensive tech solutions including web development, app development, cybersecurity, and AI integration. Based in Nairobi, we create innovative solutions to solve real-world problems.">
+<meta property="og:image" content="https://soltechssolutions.com/assets/images/hero-banner.png">
+<meta property="og:url" content="https://soltechssolutions.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SolTech - Web Development, App Development & AI Solutions | Nairobi">
+<meta name="twitter:description" content="SolTech offers comprehensive tech solutions including web development, app development, cybersecurity, and AI integration. Based in Nairobi, we create innovative solutions to solve real-world problems.">
+<meta name="twitter:image" content="https://soltechssolutions.com/assets/images/hero-banner.png">
+
+<!-- Language and Locale -->
+<meta http-equiv="content-language" content="en">
+<link rel="alternate" hreflang="en" href="https://soltechssolutions.com">
+<link rel="canonical" href="https://soltechssolutions.com" />
+
+<!-- Enhanced Schema.org Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SolTech Solutions",
+  "description": "Leading provider of web development, app development, cybersecurity, and AI integration services in Nairobi, Kenya",
+  "url": "https://soltechssolutions.com",
+  "logo": "https://soltechssolutions.com/assets/images/image26.png",
+  "foundingDate": "2024",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "Kenya",
+    "addressLocality": "Nairobi",
+    "addressRegion": "Nairobi"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+254790625309",
+    "contactType": "customer service",
+    "email": "solutech888@gmail.com",
+    "availableLanguage": ["English"]
+  },
+  "sameAs": [
+    "https://www.tiktok.com/@_solutech",
+    "https://x.com/SolTech888",
+    "https://www.linkedin.com/company/solutech",
+    "https://www.instagram.com/_.solutech"
+  ],
+  "services": [
+    {
+      "@type": "Service",
+      "name": "Web Development",
+      "description": "Custom portfolio and commercial website development services",
+      "serviceType": "Web Development"
+    },
+    {
+      "@type": "Service",
+      "name": "App Development",
+      "description": "Custom mobile and web application development",
+      "serviceType": "Software Development"
+    },
+    {
+      "@type": "Service",
+      "name": "Cybersecurity",
+      "description": "Comprehensive cybersecurity solutions and consulting",
+      "serviceType": "Security"
+    },
+    {
+      "@type": "Service",
+      "name": "AI and Machine Learning Integration",
+      "description": "Implementation of AI and ML solutions for business optimization",
+      "serviceType": "Artificial Intelligence"
+    }
+  ],
+  "slogan": "Creating innovative solutions for real-world problems",
+  "areaServed": {
+    "@type": "City",
+    "name": "Nairobi",
+    "containedIn": "Kenya"
+  },
+  "foundingLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nairobi",
+      "addressCountry": "Kenya"
+    }
+  }
+}
+</script>
+  <script>
+  (function (f, s, o, n) {
+    f._vercelAnalytics = f._vercelAnalytics || [];
+    f._vercelAnalytics.push(n);
+    if (f[n]) return;
+    f[n] = function () { f._vercelAnalytics.push(arguments); };
+    var e = s.createElement(o), t = s.getElementsByTagName(o)[0];
+    e.async = true; e.src = "https://analytics.vercel-insights.com/script.js";
+    t.parentNode.insertBefore(e, t);
+  })(window, document, "script", "vercelAnalytics");
+</script>
+
+
+
+
+</head>
+
+<body id="top">
+  <div id="loader">
+    <div class="loader-logo">
+      <img src="./assets/images/image26.png" alt="SolTech Solutions logo">
+      <div class="loader-spinner"></div>
+      <div style="font-size: 42px; font-family: 'Be Vietnam Pro', sans-serif; color: #11152; font-weight: 1000;">SolTech
+        Solutions</div>
+    </div>
+  </div>
+
+  <header class="header" style="background-color: rgba(255, 255, 255, 1);" data-header>
+    <div class="container">
+      <a href="#" class="logo"
+        style="display: flex;flex-direction: row; justify-content: center; align-items: center; font-weight: 1000; color: rgb(17, 21, 33); font-size: 25px;">
+        <img src="./assets/images/image26.png" alt="SoluTech logo" style="height: 3rem; width: 5rem;">
+        <span>SolTech Solutions</span>
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-list">
+            <li><a href="#home" class="navbar-link" data-navbar-link>Home</a></li>
+            <li><a href="#features" class="navbar-link" data-navbar-link>Projects</a></li>
+            <li><a href="#service" class="navbar-link" data-navbar-link>Service</a></li>
+            <li><a href="tech.html" class="navbar-link" data-navbar-link>Roadmap</a></li>
+            <li><a href="#newsletter" class="navbar-link" data-navbar-link>Newsletter</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <button class="btn btn-secondary">
+        <a href="#footer" data-navbar-link style="color: white">Get Started</a>
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="hero lazy_load " id="home">
+        <img src="./assets/images/shape1.png" alt="Illustration art" class="shape shape-1">
+        <img src="./assets/images/shape2.png" alt="Illustration art" class="shape shape-2">
+        <img src="./assets/images/shape3.png" alt="Illustration art" class="shape shape-3">
+
+        <div class="container">
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" alt="Illustration art" loading="lazy" class="w-100">
+          </figure>
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Secure IT Solutions for a More Secure Environment</h1>
+            <p class="section-text">Best Software Development Company</p>
+            <button class="btn btn-primary">
+              <a href="./val.html" data-navbar-link style="color: white">Valentines Message Scheduler</a>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="features lazy_load" id="features">
+        <div class="container">
+          <p class="section-subtitle">Our Work</p>
+          <h2 class="h2 section-title">Projects</h2>
+
+          <ul class="features-list">
+            <li>
+              <div class="features-card">
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" alt="IoT Smart Farming System Icon">
+                </div>
+                <h3 class="h3 card-title">ROBOX</h3>
+                <p class="card-text">
+                  An IoT smart farming system that monitors farm parameters like humidity, soil moisture, and
+                  temperature in real-time...
+                  <span class="more-text" style="display: none;"> allowing farmers to make informed decisions and
+                    automate farming activities like irrigation. This system helps optimize resources and improve crop
+                    yield.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" alt="Device Connectivity Platform Icon">
+                </div>
+                <h3 class="h3 card-title">CONNECT</h3>
+                <p class="card-text">
+                  A platform designed to seamlessly connect devices and facilitate real-time data exchange...
+                  <span class="more-text" style="display: none;"> enhancing automation and control across various
+                    applications.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" alt="Medical Records Storage Icon">
+                </div>
+                <h3 class="h3 card-title">MEDVAULT</h3>
+                <p class="card-text">
+                  A secure cloud storage solution for medical records, providing easy access while maintaining patient
+                  confidentiality...
+                  <span class="more-text" style="display: none;"> The system complies with healthcare regulations,
+                    ensuring data encryption and authorized access.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" alt="ISP Management Software Icon">
+                </div>
+                <h3 class="h3 card-title">ISP MANAGEMENT</h3>
+                <p class="card-text">
+                  Software solution designed to help internet service providers manage operations, services, and
+                  customer interactions...
+                  <span class="more-text" style="display: none;"> integrating functionalities for network
+                    infrastructure, billing, and technical support.</span>
+                </p>
+                <button class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                </button>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <h3 class="h3 card-title">RENTAL MANAGEMENT SYSTEM</h3>
+                <p class="card-text">
+                  A comprehensive platform for property owners and tenants to manage rentals, payments, and maintenance
+                  requests...
+                  <span class="more-text" style="display: none;"> offering features like automated payment reminders and
+                    financial reports.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <h3 class="h3 card-title">POLYMARKET</h3>
+                <p class="card-text">
+                  A decentralized prediction market platform enabling users to trade on the outcome of real-world
+                  events...
+                  <span class="more-text" style="display: none;"> leveraging blockchain technology for transparency and
+                    reliability.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <h3 class="h3 card-title">MESS MANAGEMENT SYSTEM</h3>
+                <p class="card-text">
+                  An all-in-one solution to manage mess operations, including meal scheduling, inventory tracking, and
+                  billing...
+                  <span class="more-text" style="display: none;"> simplifying operations for hostels and
+                    canteens.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <h3 class="h3 card-title">HOTEL MANAGEMENT SYSTEM</h3>
+                <p class="card-text">
+                  A feature-rich software for managing hotel bookings, guest check-ins, and housekeeping operations...
+                  <span class="more-text" style="display: none;"> with additional features like payment processing and
+                    customer feedback management.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <h3 class="h3 card-title">LEARNING MANAGEMENT SYSTEM</h3>
+                <p class="card-text">
+                  A robust platform for educational institutions and businesses to deliver and track learning activities
+                  online...
+                  <span class="more-text" style="display: none;"> with tools for course creation, assessments, and
+                    progress tracking.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <h3 class="h3 card-title">AIRBNB MANAGEMENT SYSTEM</h3>
+                <p class="card-text">
+                  A specialized tool for Airbnb hosts to manage bookings, guest communication, and property listings...
+                  <span class="more-text" style="display: none;"> integrating with Airbnb's API for real-time updates
+                    and analytics.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+                <h3 class="h3 card-title">DATING SITE</h3>
+                <p class="card-text">
+                  A unique platform where users can create profiles, connect with others, and find meaningful
+                  relationships...
+                  <span class="more-text" style="display: none;"> with advanced features like compatibility algorithms
+                    and secure profile verification.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="features-card">
+                <h3 class="h3 card-title">CHEATING SITE</h3>
+                <p class="card-text">
+                  A unique platform that provides users with tools to verify trust and transparency in relationships...
+                  <span class="more-text" style="display: none;"> with features like private communication and advanced
+                    detection tools.</span>
+                </p>
+                <a href="#" class="card-link" onclick="toggleText(event)">
+                  <span class="spanTag">Learn More</span>
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="service lazy_load" id="service">
+        <div class="container">
+          <figure class="service-banner">
+            <img src="./assets/images/service-1.png" alt="Illustration art" loading="lazy" class="w-100">
+          </figure>
+
+          <div class="service-content">
+            <p class="section-subtitle">Services We Offer</p>
+            <h2 class="h2 section-title">We Offer These Services</h2>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+                <h3 class="h3 service-item-title">Software Development</h3>
+              </li>
+              <li class="service-item">
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+                <h3 class="h3 service-item-title">Android App Development</h3>
+              </li>
+              <li class="service-item">
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+                <h3 class="h3 service-item-title">Artificial Intelligence and Machine Learning Solutions</h3>
+              </li>
+              <li class="service-item">
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+                <h3 class="h3 service-item-title">Cyber Security</h3>
+              </li>
+            </ul>
+          </div>
+
+          <figure class="service-banner">
+            <img src="./assets/images/service-2.png" alt="Illustration art" loading="lazy" class="w-100">
+          </figure>
+
+          <div class="service-content">
+            <p class="section-subtitle">Our Services</p>
+            <h2 class="h2 section-title">Best IT & Technology Service in Your Area</h2>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+                <h3 class="h3 service-item-title">Frameworks e.g React, Django, Express, Laravel etc</h3>
+              </li>
+              <li class="service-item">
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+                <h3 class="h3 service-item-title">Programming Languages e.g Java, Python, C, C++ etc</h3>
+              </li>
+              <li class="service-item">
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+                <h3 class="h3 service-item-title">Web Development Technologies e.g HTML, Javascript etc</h3>
+              </li>
+              <li class="service-item">
+                <div class="service-item-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+                <h3 class="h3 service-item-title">Android Development Technologies e.g Kotlin, Dart, C# etc</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog lazy_load" id="blog">
+        <div class="container">
+          <p class="section-subtitle">Latest News</p>
+          <h2 class="h2 section-title">About Us</h2>
+          <ul class="blog-list">
+            <!-- Blog Card 1 -->
+            <li>
+              <div class="blog-card">
+                <figure class="blog-banner">
+                  <a href="https://www.weforum.org/stories/2015/08/how-technology-will-change-the-way-we-work/"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/image90.JPG" alt="How is technology working with new things?"
+                      loading="lazy" class="w-100">
+                  </a>
+                </figure>
+                <div class="blog-content">
+                  <ul class="blog-meta-list">
+                    <li class="blog-meta-item">
+                      <ion-icon name="pricetag-outline"></ion-icon>
+                      <a href="#" class="blog-meta-link">Konza Technology</a>
+                    </li>
+                    <li class="blog-meta-item">
+                      <ion-icon name="calendar-number-outline"></ion-icon>
+                      <time class="blog-meta-time" datetime="2024-09-25">25 September, 2024</time>
+                    </li>
+                  </ul>
+                  <h3 class="h3 blog-title">
+                    <a href="https://www.weforum.org/stories/2015/08/how-technology-will-change-the-way-we-work/"
+                      target="_blank" rel="noopener noreferrer">How is technology working with new things?</a>
+                  </h3>
+                  <p class="blog-description">
+                    Explore how cutting-edge technology is revolutionizing industries and creating new opportunities for
+                    innovation and growth.
+                  </p>
+                  <a href="https://chat.openai.com/?q=How+is+technology+working+with+new+things" target="_blank"
+                    rel="noopener noreferrer" class="llm-link">
+                    <ion-icon name="chatbox-outline"></ion-icon> Ask ChatGPT about this topic
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Blog Card 2 -->
+            <li>
+              <div class="blog-card">
+                <figure class="blog-banner">
+                  <a href="https://www.upwork.com/resources/web-design-vs-web-development" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="./assets/images/image91.JPG" alt="Top 10 important tips on IT services & design"
+                      loading="lazy" class="w-100">
+                  </a>
+                </figure>
+                <div class="blog-content">
+                  <ul class="blog-meta-list">
+                    <li class="blog-meta-item">
+                      <ion-icon name="pricetag-outline"></ion-icon>
+                      <a href="#" class="blog-meta-link">WEB DEVELOPMENT</a>
+                    </li>
+                    <li class="blog-meta-item">
+                      <ion-icon name="calendar-number-outline"></ion-icon>
+                      <time class="blog-meta-time" datetime="2024-09-25">25 September, 2024</time>
+                    </li>
+                  </ul>
+                  <h3 class="h3 blog-title">
+                    <a href="https://www.upwork.com/resources/web-design-vs-web-development" target="_blank"
+                      rel="noopener noreferrer">Web Development and Design</a>
+                  </h3>
+                  <p class="blog-description">
+                    Discover the top 10 tips for creating effective and user-friendly websites that drive engagement and
+                    conversions.
+                  </p>
+                  <a href="https://chat.openai.com/?q=Top+10+important+tips+on+IT+services+and+design" target="_blank"
+                    rel="noopener noreferrer" class="llm-link">
+                    <ion-icon name="chatbox-outline"></ion-icon> Ask ChatGPT about this topic
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Blog Card 3 -->
+            <li>
+              <div class="blog-card">
+                <figure class="blog-banner">
+                  <a href="https://hbr.org/2019/08/the-8-ways-companies-get-work-done-and-how-to-align-them"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/image31.png" alt="How our company works in different ways" loading="lazy"
+                      class="w-100">
+                  </a>
+                </figure>
+                <div class="blog-content">
+                  <ul class="blog-meta-list">
+                    <li class="blog-meta-item">
+                      <ion-icon name="pricetag-outline"></ion-icon>
+                      <a href="#" class="blog-meta-link">Startup</a>
+                    </li>
+                    <li class="blog-meta-item">
+                      <ion-icon name="calendar-number-outline"></ion-icon>
+                      <time class="blog-meta-time" datetime="2024-09-25">25 September, 2024</time>
+                    </li>
+                  </ul>
+                  <h3 class="h3 blog-title">
+                    <a href="https://hbr.org/2019/08/the-8-ways-companies-get-work-done-and-how-to-align-them"
+                      target="_blank" rel="noopener noreferrer">How our company works in different ways</a>
+                  </h3>
+                  <p class="blog-description">
+                    Learn about our unique approach to solving problems and delivering innovative solutions tailored to
+                    our clients' needs.
+                  </p>
+                  <a href="https://chat.openai.com/?q=How+our+company+works+in+different+ways" target="_blank"
+                    rel="noopener noreferrer" class="llm-link">
+                    <ion-icon name="chatbox-outline"></ion-icon> Ask ChatGPT about this topic
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Blog Card 4 -->
+            <li>
+              <div class="blog-card">
+                <figure class="blog-banner">
+                  <a href="https://professional.dce.harvard.edu/blog/whats-the-future-of-ai-in-business/"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/image92.JPG" alt="The future of AI in business" loading="lazy"
+                      class="w-100">
+                  </a>
+                </figure>
+                <div class="blog-content">
+                  <ul class="blog-meta-list">
+                    <li class="blog-meta-item">
+                      <ion-icon name="pricetag-outline"></ion-icon>
+                      <a href="#" class="blog-meta-link">Artificial Intelligence</a>
+                    </li>
+                    <li class="blog-meta-item">
+                      <ion-icon name="calendar-number-outline"></ion-icon>
+                      <time class="blog-meta-time" datetime="2024-10-01">1 October, 2024</time>
+                    </li>
+                  </ul>
+                  <h3 class="h3 blog-title">
+                    <a href="https://professional.dce.harvard.edu/blog/whats-the-future-of-ai-in-business/"
+                      target="_blank" rel="noopener noreferrer">The Future of AI in Business</a>
+                  </h3>
+                  <p class="blog-description">
+                    Discover how artificial intelligence is transforming industries and what it means for the future of
+                    business.
+                  </p>
+                  <a href="https://chat.openai.com/?q=The+future+of+AI+in+business" target="_blank"
+                    rel="noopener noreferrer" class="llm-link">
+                    <ion-icon name="chatbox-outline"></ion-icon> Ask ChatGPT about this topic
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Blog Card 5 -->
+            <li>
+              <div class="blog-card">
+                <figure class="blog-banner">
+                  <a href="https://www.isaca.org/resources/news-and-trends/industry-news/2025/cybersecurity-trends-to-watch-in-2025"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/image93.JPG" alt="Cybersecurity trends to watch in 2024" loading="lazy"
+                      class="w-100">
+                  </a>
+                </figure>
+                <div class="blog-content">
+                  <ul class="blog-meta-list">
+                    <li class="blog-meta-item">
+                      <ion-icon name="pricetag-outline"></ion-icon>
+                      <a href="#" class="blog-meta-link">Cybersecurity</a>
+                    </li>
+                    <li class="blog-meta-item">
+                      <ion-icon name="calendar-number-outline"></ion-icon>
+                      <time class="blog-meta-time" datetime="2024-10-10">10 October, 2024</time>
+                    </li>
+                  </ul>
+                  <h3 class="h3 blog-title">
+                    <a href="https://www.isaca.org/resources/news-and-trends/industry-news/2025/cybersecurity-trends-to-watch-in-2025"
+                      target="_blank" rel="noopener noreferrer">Cybersecurity Trends to Watch in 2025</a>
+                  </h3>
+                  <p class="blog-description">
+                    Stay ahead of the curve with the latest cybersecurity trends and best practices to protect your
+                    business.
+                  </p>
+                  <a href="https://chat.openai.com/?q=Cybersecurity+trends+to+watch+in+2024" target="_blank"
+                    rel="noopener noreferrer" class="llm-link">
+                    <ion-icon name="chatbox-outline"></ion-icon> Ask ChatGPT about this topic
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- Blog Card 6 -->
+            <li>
+              <div class="blog-card">
+                <figure class="blog-banner">
+                  <a href="https://www.bls.gov/opub/btn/volume-13/remote-work-productivity.htm#:~:text=They%20also%20find%20that%20remote,declined%20in%20the%20short%20run."
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/image94.JPG" alt="The rise of remote work and its impact" loading="lazy"
+                      class="w-100">
+                  </a>
+                </figure>
+                <div class="blog-content">
+                  <ul class="blog-meta-list">
+                    <li class="blog-meta-item">
+                      <ion-icon name="pricetag-outline"></ion-icon>
+                      <a href="#" class="blog-meta-link">Remote Work</a>
+                    </li>
+                    <li class="blog-meta-item">
+                      <ion-icon name="calendar-number-outline"></ion-icon>
+                      <time class="blog-meta-time" datetime="2024-10-15">15 October, 2024</time>
+                    </li>
+                  </ul>
+                  <h3 class="h3 blog-title">
+                    <a href="https://www.bls.gov/opub/btn/volume-13/remote-work-productivity.htm#:~:text=They%20also%20find%20that%20remote,declined%20in%20the%20short%20run."
+                      target="_blank" rel="noopener noreferrer">The Rise of Remote Work and Its Impact</a>
+                  </h3>
+                  <p class="blog-description">
+                    Learn how remote work is reshaping the workplace and what it means for businesses and employees
+                    alike.
+                  </p>
+                  <a href="https://chat.openai.com/?q=The+rise+of+remote+work+and+its+impact" target="_blank"
+                    rel="noopener noreferrer" class="llm-link">
+                    <ion-icon name="chatbox-outline"></ion-icon> Ask ChatGPT about this topic
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" style="padding: 6rem 0; background-color: #f8fafc;">
+        <div style="max-width: 800px; margin: 0 auto; padding: 0 1rem;">
+          <h2 style="text-align: center; font-size: 2.5rem; font-weight: bold; margin-bottom: 2rem; color: #1e293b;">
+            Project Cost Estimator
+          </h2>
+          <div
+            style="background-color: #ffffff; padding: 2.5rem; border-radius: 1rem; box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);">
+            <form id="project-cost-form">
+              <!-- Project Type -->
+              <div style="margin-bottom: 2rem;">
+                <label
+                  style="display: block; font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; color: #475569;">
+                  Project Type
+                </label>
+                <select id="project-type"
+                  style="width: 100%; padding: 0.875rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; background-color: #f8fafc; font-size: 1rem; color: #1e293b; transition: border-color 0.3s ease;">
+                  <option value="">Select Project Type</option>
+                  <option value="web">Web Application</option>
+                  <option value="mobile">Mobile App</option>
+                  <option value="ai">AI/Machine Learning Solution</option>
+                  <option value="iot">IoT System</option>
+                  <option value="custom">Custom Software</option>
+                </select>
+              </div>
+
+              <!-- Project Complexity -->
+              <div style="margin-bottom: 2rem;">
+                <label
+                  style="display: block; font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; color: #475569;">
+                  Project Complexity
+                </label>
+                <select id="project-complexity"
+                  style="width: 100%; padding: 0.875rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; background-color: #f8fafc; font-size: 1rem; color: #1e293b; transition: border-color 0.3s ease;">
+                  <option value="">Select Complexity</option>
+                  <option value="basic">Basic (Simple Features)</option>
+                  <option value="moderate">Moderate (Average Complexity)</option>
+                  <option value="complex">Complex (Advanced Features)</option>
+                  <option value="enterprise">Enterprise (Highly Complex)</option>
+                </select>
+              </div>
+
+              <!-- Estimated Development Time -->
+              <div style="margin-bottom: 2rem;">
+                <label
+                  style="display: block; font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; color: #475569;">
+                  Estimated Development Time (Weeks)
+                </label>
+                <input type="number" id="project-duration" min="1" max="52" placeholder="Enter estimated weeks"
+                  style="width: 100%; padding: 0.875rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; background-color: #f8fafc; font-size: 1rem; color: #1e293b; transition: border-color 0.3s ease;">
+              </div>
+
+              <!-- Additional Features -->
+              <div style="margin-bottom: 2rem;">
+                <label
+                  style="display: block; font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; color: #475569;">
+                  Additional Features
+                </label>
+                <button type="button" id="additional-features-button"
+                  style="width: 100%; padding: 0.875rem; border: 1px solid #e2e8f0; border-radius: 0.5rem; background-color: #f8fafc; font-size: 1rem; color: #1e293b; text-align: left; cursor: pointer; transition: background-color 0.3s ease;"
+                  onclick="toggleFeaturesList()">
+                  Select Additional Features
+                </button>
+                <div id="additional-features-list"
+                  style="display: none; margin-top: 1rem; max-height: 200px; overflow-y: auto; border: 1px solid #e2e8f0; border-radius: 0.5rem; padding: 1rem; background-color: #ffffff;">
+                  <!-- Feature Checkboxes -->
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="auth" style="margin-right: 0.5rem;"> User Authentication
+                    (Login/Signup)
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="currency" style="margin-right: 0.5rem;"> Multi-Currency Support
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="payment" style="margin-right: 0.5rem;"> Payment Gateway Integration
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="notifications" style="margin-right: 0.5rem;"> Push Notifications
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="chat" style="margin-right: 0.5rem;"> Real-Time Chat
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="analytics" style="margin-right: 0.5rem;"> Analytics Dashboard
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="search" style="margin-right: 0.5rem;"> Advanced Search Functionality
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="multi_lang" style="margin-right: 0.5rem;"> Multi-Language Support
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="role_based" style="margin-right: 0.5rem;"> Role-Based Access Control
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="file_upload" style="margin-right: 0.5rem;"> File Upload and Management
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="api_integration" style="margin-right: 0.5rem;"> Third-Party API
+                    Integration
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="social_login" style="margin-right: 0.5rem;"> Social Media Login
+                    (Google, Facebook, etc.)
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="cms" style="margin-right: 0.5rem;"> Content Management System (CMS)
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="ecommerce" style="margin-right: 0.5rem;"> E-Commerce Functionality
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="subscription" style="margin-right: 0.5rem;"> Subscription Management
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="gps" style="margin-right: 0.5rem;"> GPS and Location Tracking
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="offline" style="margin-right: 0.5rem;"> Offline Mode Support
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="ai_chatbot" style="margin-right: 0.5rem;"> AI-Powered Chatbot
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="data_export" style="margin-right: 0.5rem;"> Data Export (CSV, Excel,
+                    PDF)
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="data_import" style="margin-right: 0.5rem;"> Data Import (CSV, Excel)
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="custom_workflow" style="margin-right: 0.5rem;"> Custom Workflow
+                    Automation
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="multi_tenant" style="margin-right: 0.5rem;"> Multi-Tenant Architecture
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="responsive" style="margin-right: 0.5rem;"> Responsive Design (Mobile,
+                    Tablet, Desktop)
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="custom_theme" style="margin-right: 0.5rem;"> Custom Theme and Branding
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="security" style="margin-right: 0.5rem;"> Advanced Security Features
+                    (2FA, Encryption)
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="scalability" style="margin-right: 0.5rem;"> Scalability for High
+                    Traffic
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="custom_reporting" style="margin-right: 0.5rem;"> Custom Reporting
+                    Tools
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="video_streaming" style="margin-right: 0.5rem;"> Video Streaming
+                    Support
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="audio_streaming" style="margin-right: 0.5rem;"> Audio Streaming
+                    Support
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="gamification" style="margin-right: 0.5rem;"> Gamification Features
+                    (Badges, Leaderboards)
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="custom_api" style="margin-right: 0.5rem;"> Custom API Development
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="data_migration" style="margin-right: 0.5rem;"> Data Migration from
+                    Legacy Systems
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="custom_dashboard" style="margin-right: 0.5rem;"> Custom Admin
+                    Dashboard
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="multi_user" style="margin-right: 0.5rem;"> Multi-User Collaboration
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="custom_integration" style="margin-right: 0.5rem;"> Custom Integration
+                    with Existing Systems
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="custom_plugins" style="margin-right: 0.5rem;"> Custom Plugins or
+                    Extensions
+                  </label>
+                  <label style="display: block; margin-bottom: 0.75rem; font-size: 0.9375rem; color: #475569;">
+                    <input type="checkbox" value="custom_forms" style="margin-right: 0.5rem;"> Custom Forms and Surveys
+                  </label>
+                </div>
+              </div>
+              <!-- Cost Result -->
+              <div id="cost-result"
+                style="padding: 1.5rem; background-color: #dbeafe; border-radius: 0.5rem; text-align: center; display: none; margin-bottom: 2rem;">
+                <h3 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem; color: #1e40af;">
+                  Estimated Project Cost: <span id="total-cost">KSH 0</span>
+                </h3>
+                <p id="duration-estimate" style="font-size: 0.875rem; color: #64748b; margin-top: 0.5rem;"></p>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit"
+                style="width: 100%; background-color: #3b82f6; color: #ffffff; padding: 1rem; border: none; border-radius: 0.5rem; font-size: 1.125rem; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease;">
+                Calculate Project Cost
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <script>
+          const featuresButton = document.getElementById('additional-features-button');
+          const featuresList = document.getElementById('additional-features-list');
+          const form = document.getElementById('project-cost-form');
+          const totalCostElement = document.getElementById('total-cost');
+          const costResult = document.getElementById('cost-result');
+
+          featuresButton.addEventListener('click', () => {
+            featuresList.style.display = featuresList.style.display === 'none' || !featuresList.style.display ? 'block' : 'none';
+          });
+
+          form.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const projectType = document.getElementById('project-type').value;
+            const complexity = document.getElementById('project-complexity').value;
+            const duration = parseInt(document.getElementById('project-duration').value) || 0;
+
+            let additionalFeaturesCost = 0;
+            featuresList.querySelectorAll('input:checked').forEach(() => additionalFeaturesCost += 5000);
+
+            let baseCost = 0;
+            if (projectType === 'web') baseCost = 50000;
+            else if (projectType === 'mobile') baseCost = 70000;
+            else if (projectType === 'ai') baseCost = 150000;
+            else if (projectType === 'iot') baseCost = 100000;
+            else if (projectType === 'custom') baseCost = 120000;
+
+            let complexityMultiplier = 1;
+            if (complexity === 'moderate') complexityMultiplier = 1.5;
+            else if (complexity === 'complex') complexityMultiplier = 2;
+            else if (complexity === 'enterprise') complexityMultiplier = 3;
+
+            const totalCost = (baseCost * complexityMultiplier) + (duration * 1000) + additionalFeaturesCost;
+
+            totalCostElement.textContent = `KSH ${totalCost.toLocaleString()}`;
+            costResult.style.display = 'block';
+          });
+        </script>
+      </section>
+
+      <section class="newsletter lazy_load" id="newsletter">
+        <div class="container">
+          <figure class="newsletter-banner">
+            <img src="./assets/images/newsletter.png" alt="Illustration art" loading="lazy" class="w-100">
+          </figure>
+
+          <div class="newsletter-content">
+            <p class="section-subtitle">Subscribe Our Newsletter</p>
+            <h2 class="h2 section-title">The Latest Resources, Sent to Your Inbox Weekly</h2>
+            <form id="newsletterForm" class="newsletter-form" method="POST" action="your-backend-endpoint"
+              style="display: flex; flex-direction: column; gap: 10px;">
+              <input type="email" name="email" id="subscriberEmail" required placeholder="Enter your email address"
+                class="input-field" style="resize: none; width: 100%;">
+
+              <textarea name="message" id="feedbackMessage" required placeholder="Enter your message or feedback"
+                class="input-field" rows="4" style="resize: none; width: 100%;"></textarea>
+
+              <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+                <span>Subscribe Now!</span>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </button>
+            </form>
+
+            <div id="statusMessage" style="margin-top: 15px; display: none;"></div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <section class="footer lazy_load" id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo"
+            style="display: flex;flex-direction: row; justify-content: center; align-items: center; font-weight: 1000; color: rgb(17, 21, 33); font-size: 25px;">
+            <img src="./assets/images/image26.png" alt="SoluTech logo" style="height: 3rem; width: 5rem;">
+            <span>SolTech</span>
+          </a>
+          <p class="section-text">
+            At SolTech Solutions, our mission is to deliver innovative and secure IT solutions that empower businesses
+            and individuals to thrive in a digital world. We are committed to enhancing operational efficiency, driving
+            growth, and providing exceptional customer service through our cutting-edge technology and expertise. By
+            prioritizing reliability and integrity, we aim to build long-lasting relationships with our clients,
+            ensuring their success and satisfaction.
+          </p>
+          <div class="location-text">
+            <div class="location-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <address class="address">
+              Machakos Town, Machakos, Kenya.
+            </address>
+          </div>
+        </div>
+
+        <div class="quicklink-box">
+          <p class="h3 quicklink-title">Quick links</p>
+          <ul class="quicklink-list">
+            <li><a href="#" class="quicklink">IT Startup</a></li>
+            <li><a href="#" class="quicklink">Software</a></li>
+            <li><a href="#" class="quicklink">Business</a></li>
+            <li><a href="#" class="quicklink">App</a></li>
+            <li><a href="#" class="quicklink">Web</a></li>
+            <li><a href="#" class="quicklink">Android</a></li>
+            <li><a href="#" class="quicklink">Big Data</a></li>
+            <li><a href="#" class="quicklink">Distance Learning</a></li>
+            <li><a href="#" class="quicklink">Chatbot</a></li>
+            <li><a href="#" class="quicklink">AI</a></li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <p class="h3 contact-title">Contact with us</p>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <a href="solutech888@gmail.com" class="contact-link">solutech888@gmail.com</a>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <a href="tel:+254790625309" class="contact-link"
+                aria-label="Call CodewithSolTechSolutions">+254790625309</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="https://www.codewithsoltechsolutions.com"
+            title="CodewithSolTechSolutions">CodewithSolTechSolutions</a>. All Rights Reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.tiktok.com/@_solutech?_t=8qcWYV9ZJF0&_r=1" class="social-link" target="_blank"
+              aria-label="Follow CodewithSolTechSolutions on TikTok">
+              <ion-icon name="logo-tiktok" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.com/SolTech888?t=2JrmCCJcOA074q6ueZF70A&s=09" class="social-link"
+              aria-label="Follow CodewithSolTechSolutions on Twitter">
+              <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/company/solutech" class="social-link"
+              aria-label="Follow CodewithSolTechSolutions on LinkedIn">
+              <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/_.solutech/profilecard/?igsh=djJwZjF3bXg1dHNh" class="social-link"
+              aria-label="Follow CodewithSolTechSolutions on Instagram">
+              <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top active" data-go-top aria-label="Go to top">
+    <ion-icon name="chevron-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- Existing Footer and other sections remain the same -->
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "h7cWK7pSzJR8GO15u",
+      });
+    })();
+  </script>
+
+  <script>
+    const loader = document.getElementById('loader');
+
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        loader.style.opacity = '0';
+        setTimeout(() => {
+          loader.style.display = 'none';
+        }, 500);
+      }, 1000);
+    });
+
+    const lazyLoadContent = document.querySelectorAll('.lazy_load');
+
+    document.getElementById('newsletterForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      let email = document.getElementById('subscriberEmail').value.trim();
+      let message = document.getElementById('feedbackMessage').value.trim();
+
+      const statusDiv = document.getElementById('statusMessage');
+      if (statusDiv) {
+        statusDiv.style.display = 'block';
+        statusDiv.textContent = 'Sending...';
+      }
+
+      let params = {
+        email: email,
+        message: message
+      };
+
+      emailjs.send('service_ifevqla', 'template_k8ino7h', params).then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          if (statusDiv) {
+            statusDiv.style.backgroundColor = '#dff0d8';
+            statusDiv.style.color = '#3c763d';
+            statusDiv.style.padding = '10px';
+            statusDiv.textContent = 'Your mail is sent!';
+          } else {
+            alert('Your mail is sent!');
+          }
+        },
+        (error) => {
+          console.log('FAILED...', error);
+          if (statusDiv) {
+            statusDiv.style.backgroundColor = '#f2dede';
+            statusDiv.style.color = '#a94442';
+            statusDiv.style.padding = '10px';
+            statusDiv.textContent = 'Failed to send email: ' + error.message;
+          } else {
+            alert('Oops... ' + error.message);
+          }
+        }
+      );
+    });
+
+    function toggleText(event) {
+      event.preventDefault();
+
+      let card = event.target.closest('.features-card');
+      if (!card) return;
+
+      const moreText = card.querySelector('.more-text');
+      const linkText = card.querySelector('.spanTag');
+
+      if (!moreText || !linkText) return;
+
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        linkText.textContent = "Show Less";
+      } else {
+        moreText.style.display = "none";
+        linkText.textContent = "Learn More";
+      }
+    }
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          console.log('Element is intersecting:', entry.target);
+          entry.target.classList.add('loaded');
+        } else {
+          entry.target.classList.remove('loaded');
+        }
+      });
+    }, {
+      rootMargin: '0px',
+      threshold: '0.1'
+    });
+
+    lazyLoadContent.forEach(element => {
+      observer.observe(element);
+    });
+  </script>
+</body>
+
+</html>

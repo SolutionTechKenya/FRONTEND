@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .section {
+            padding: 50px;
+            margin: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+        }
+        .lazy-load {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .lazy-load.loaded {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .spacer {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="spacer"></div>
+
+    <section class="section lazy-load">
+        <h2>Section 1</h2>
+        <p>This is the content of section 1. It will lazy load when scrolled into view.</p>
+    </section>
+
+    <div class="spacer"></div>
+
+    <section class="section lazy-load">
+        <h2>Section 2</h2>
+        <p>This is the content of section 2. It will also lazy load when scrolled into view.</p>
+    </section>
+
+    <div class="spacer"></div>
+
+    <section class="section lazy-load">
+        <h2>Section 3</h2>
+        <p>This is the content of section 3. It demonstrates the lazy loading effect as well.</p>
+    </section>
+
+    <div class="spacer"></div>
+
+    <section class="section lazy-load">
+        <h2>Section 4</h2>
+        <p>This is the content of section 4. Scroll down to see it appear!</p>
+    </section>
+
+    <script>
+        console.log('Lazy loading script is running');
+
+        const lazyLoadContent = document.querySelectorAll('.lazy-load');
+        
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    console.log('Element is intersecting:', entry.target);
+                    entry.target.classList.add('loaded');
+                    // observer.unobserve(entry.target);
+                }else{
+                    entry.target.classList.remove('loaded');
+
+                }
+            });
+        }, {
+            rootMargin: '0px',
+            threshold: 0.3
+        });
+
+        lazyLoadContent.forEach(element => {
+            console.log('Observing element:', element);
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+.status-success {
+    color: #10B981;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #D1FAE5;
+}
+
+.status-error {
+    color: #DC2626;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #FEE2E2;
+}
