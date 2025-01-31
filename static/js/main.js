@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             console.log('Sending data:', data);
 
-            const response = await fetch('https://soltechs.pythonanywhere.com/', {
+            const response = await fetch('https://soltechs.pythonanywhere.com/api/messages/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -270,7 +270,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
 // Premium services section handling
+const premiumForm = document.getElementById('premiumForm');
 premiumForm.addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -283,7 +285,7 @@ premiumForm.addEventListener('submit', async (e) => {
     }
 
     try {
-        const response = await fetch('https://soltechs.pythonanywhere.com/', {
+        const response = await fetch('https://soltechs.pythonanywhere.com/api/premium-requests/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -299,7 +301,10 @@ premiumForm.addEventListener('submit', async (e) => {
         if (response.ok) {
             showPremiumPopup();
             premiumForm.reset();
-            premiumSection.classList.remove('expanded');
+            const premiumSection = document.getElementById('premiumSection');
+            if (premiumSection) {
+                premiumSection.classList.remove('expanded');
+            }
         } else {
             const result = await response.json();
             throw new Error(result.message || 'Failed to submit premium request');
@@ -390,7 +395,7 @@ function showPremiumPopup() {
                     <li>🍽️ Candlelight dinner reservations</li>
                     <li>💌 Handwritten love letters</li>
                 </ul>
-                <p>We’ll contact you soon to arrange the perfect surprise! ❤️</p>
+                <p>We'll contact you soon to arrange the perfect surprise! ❤️</p>
             </div>
         </div>
     `;
@@ -403,4 +408,4 @@ function showPremiumPopup() {
             popup.remove();
         }
     });
-}   
+}
