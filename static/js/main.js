@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
 
             // Submit to backend
-            const response = await fetch('https://soltechssolutions.com/', {
+            const response = await fetch('https://soltechssolutions.com/api/messages/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -205,7 +205,7 @@ document.getElementById('premiumForm').addEventListener('submit', async (e) => {
     }
 
     try {
-        const response = await fetch('https://soltechssolutions.com/', {
+        const response = await fetch('https://soltechssolutions.com/api/premium/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
